@@ -124,6 +124,16 @@ img {
   font-size: 2.3em;
 }
 
+@media (max-width: 600px) {
+  .tit-imob {
+  margin: 20px auto;
+  }
+  .tit-imob h1 {
+   text-align: center;
+   margin: 0 auto;
+  }
+}
+
 /* SOBRE */
 .sobre {
   display: flex;
@@ -132,6 +142,21 @@ img {
   margin-top: 20px;
   flex-wrap: wrap;
   border-bottom: #65E57A 2px solid;
+}
+
+@media (max-width:600px) {
+  .imob {
+  margin: 20px auto;
+  }
+  .sobre-img {
+    margin:0;
+  }
+  .imob h1 {
+    text-align: center;
+  }
+  .sobre {
+    margin-left: 0;
+  }
 }
 
 .imob {
@@ -155,11 +180,18 @@ img {
   padding-bottom: 20px;
 }
 
+@media(max-width:600px) {
+  .sobre-img {
+    margin: 20px auto;
+  }
+}
+
 /* Serviços */
 .servicos {
   max-width: 100%;
   margin: 40px;
 }
+
 
 .servicos h1 {
   color: #FFFFFF;
@@ -172,6 +204,17 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
+@media(max-width: 600px) {
+  .servicos h1 {
+    text-align: center;
+    margin: 10px;
+  }
+  .servicos {
+    margin: 20px;
+  }
+}
+
 
 .painel-facebook {
   margin: 20px auto;
@@ -339,6 +382,13 @@ img {
   text-transform: uppercase;
 }
 
+@media(max-width:600px) {
+  .vantagens h1 {
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
 /* Nossos Clientes */
 .clientes {
   max-width: 100%;
@@ -364,6 +414,12 @@ img {
   display: block;
   max-width: 195px;
   margin: 20px 60px;
+}
+
+@media(max-width: 600px) {
+  .clientes h1 {
+    text-align: center;
+  }
 }
 
 /* Contato */
