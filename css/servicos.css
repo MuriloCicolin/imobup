@@ -1,0 +1,134 @@
+.servicos-pag {
+  max-width: 100%;
+  padding: 40px 0 ;
+  background: #071C3C;
+}
+
+.servicos-pag h1 {
+  margin: auto 40px;
+  color: #FFFFFF;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.servicos-pag h1::after {
+  display: block;
+  content: '';
+  max-width: 185px;
+  height: 2px;
+  margin: 2px 0;
+  background: #FFFFFF;
+}
+
+/* Texto do Serviço */
+.texto-paragrafo {
+  max-width: 1280px;
+  margin: 25px auto;
+}
+
+.texto-paragrafo p {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.texto-paragrafo p::after {
+  display: block;
+  content: '';
+  max-width: 600px;
+  height: 2px;
+  margin: 12px auto;
+  background: #65E57A;
+}
+
+@media (max-width: 600px) {
+  .texto-paragrafo {
+    margin: 25px 20px;
+  }
+  .texto-paragrafo p {
+    font-size: 1em;
+  }
+}
+
+/* Lista de serviços */
+.nossos-servicos {
+  max-width: 100%;
+  color: white;
+}
+
+.container-serv {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.container-serv img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.container-serv h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .container-serv h4 {
+    font-size: 16px;
+  }
+  .container-serv p {
+    font-size: 12px;
+  }
+}
+
+
+.container-serv p {
+  max-width: 650px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.text-con {
+  margin: 0 30px;
+}
+
+
+.contato-container-bkg {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+  background: #071C3C;
+}
+
+.footer-bkg {
+  max-width: 100%;
+  background: #1C558A;
+}
+
+.button-solicite-servicos {
+  border: 2px solid #65E57A;
+  border-radius: 50px;
+  width: 200px;
+  background: #65E57A;
+  margin: 0 auto;
+  margin-bottom: 35px; 
+}
+
+.button-solicite-servicos a {
+  font-size: 1.0em;
+  display: block;
+  padding: 10px 2px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}

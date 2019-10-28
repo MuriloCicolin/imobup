@@ -1,0 +1,115 @@
+.contato-pag {
+    max-width: 100%;
+    padding: 40px 0 ;
+    background: #071C3C;
+  }
+  
+  .contato-pag h1 {
+    margin: auto 40px;
+    color: #FFFFFF;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  .contato-pag h1::after {
+    display: block;
+    content: '';
+    max-width: 125px;
+    height: 2px;
+    margin: 2px 0;
+    background: #FFFFFF;
+  }
+
+
+/* Texto do Contato */
+.texto-paragrafo {
+    max-width: 1280px;
+    margin: 25px auto;
+  }
+  
+  .texto-paragrafo p {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .texto-paragrafo p::after {
+    display: block;
+    content: '';
+    max-width: 375px;
+    height: 2px;
+    margin: 12px auto;
+    background: #65E57A;
+  }
+  
+
+
+.formulario {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;;
+  }
+  
+  
+  .contato_form {
+    margin: 0 40px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 600px;
+  }
+  
+  label {
+    padding-bottom: 3px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input {
+    background: #c9d6df;
+    border: none;
+    padding: 6px;
+    width: 100%;
+    border-radius: 3px;
+    
+  }
+  
+  textarea {
+    background: #c9d6df;
+    border: none;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+  
+  .botao {
+    margin-bottom: 20px;
+    display: block;
+    
+  }
+  
+  .botao button {
+    padding: 12px;
+    border: 2px solid black;
+    background: #65E57A;
+    width: 220px;
+    text-align: center;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .botao button:hover {
+    border: 2px solid black;
+  }
+  
+  .nao-aparece {
+    visibility: hidden;
+    position: absolute;
+  }
