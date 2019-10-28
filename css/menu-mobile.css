@@ -8,10 +8,14 @@ body {
 }
 
 .nav {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: #012C3F;
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 
 .nav > .nav-header {
@@ -31,7 +35,7 @@ body {
 
 .nav > .nav-links {
   display: inline;
-  float: right;
+  /* float: right; */
   font-size: 18px;
 }
 
@@ -56,6 +60,7 @@ body {
     position: absolute;
     right: 0px;
     top: 0px;
+    margin-top: 12px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -67,9 +72,10 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
   }
   .nav > .nav-btn > label > span {
-    display: block;
+    display: flex;
     width: 25px;
     height: 10px;
+    align-content: center;
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
@@ -80,7 +86,7 @@ body {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 60px;
     left: 0px;
     padding-left: 20px;
     padding: 0 auto;
@@ -102,3 +108,4 @@ body {
 
   }
 }
+
